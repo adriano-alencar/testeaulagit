@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+/* 
+Cores usadas: #212121; 
+              vermelho; 
+              #F9A825;
+Fonte principal: helvetica
+Altura do cabeçalho: 40 pixel
+Altura do rodapé: 80px; */
+
+:root{
+    --font-family: helvetica;
+    font-size: 100%;
+    --cor-font-header: #fff;
+    --cor-fundo-header: #212121;
+}
+
+header, main, footer{
+    width: 100%;
+    margin:0 auto;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+
+header{
+    color: var(--cor-font-header);
+    font-size: 1.1rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+
+div#boxHeader{
+    width: 100%;
+    height: auto;
+    background-color:var(--cor-fundo-header);
+    display: flex; 
+}
+
+div#boxLogo{
+    width: 60%;
+    height: auto;
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+div#boxHeader nav{
+    width:50%;
+    height: auto;   
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin: 0 auto;
+}
+
+a{
+ color: var(--cor-font-header);
+ width: 100px;
+ height: auto;
+ justify-content: space-between;
+ align-items: center;
+ text-align: center;
+ cursor: pointer;
+ text-decoration: none;
+ padding: 5px;
+ margin: 3px;
+}
+
+
+a#btnHome{
+    background-color:#F9A825 ;
+    border-radius: 30px;  
+    justify-content: center;
+}
+
+a#btnContato:hover{
+    background-color: red;
+    color: #fff;
+}
+
+div#areaTxt{
+    width: 50%;
+    height: 200px;
+}
+
+main{
+    width: 100%;   
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section#sectionCentral{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+div#areaTextual{
+    border-right: 2px solid #000;
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    margin: 10px auto;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    text-align: center;
+    display: flex;    
+    border-style: dotted;
+}
+
+p{
+margin:0 auto;
+height: auto;
+width: 100%;
+padding: 5px;
+color: #000;
+background-color: rgba(33,33,33, 0.02);
+font-size: 1rem;
+text-align: justify;
+font-family: var(--font-family);
+padding: 5px;
+
+}
+
+label{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 2px auto;
+    display: block;
+}
+
+input{
+    font-size: 1rem;
+
+}
+.inputEmail{
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    border: 1px solid #000;
+    display: block;
+    border-radius: 5px;
+}
+
+#areaInput{
+    border-left-style: dotted;
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: var(--font-family);
+}
+
+
+#btnSubmit{
+    width: 50%;
+    height: 30px;
+    margin: 10px auto;
+    font-size: 1rem;
+    justify-content: center;
+    color: var(--cor-font-header);
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    display: flex;
+    background-color: var(--cor-fundo-header);  
+}
+
+
+footer#boxFooter{
+    background-color: #212121;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;  
+    bottom: 0; 
+    display: flex;
+    justify-content: end; 
+}
+
+footer#boxFooter h2{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    text-align: center;
+    color: var(--cor-font-header);
+    font-weight: bold;
+    display: flex;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
