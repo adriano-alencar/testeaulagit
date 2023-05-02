@@ -33,11 +33,12 @@ header{
     width: 100%;
     position: fixed;
     display: flex;
+    height: 40px;
 }
 
 div#boxHeader{
     width: 100%;
-    height: auto;
+    height:40px;
     background-color:var(--cor-fundo-header);
     display: flex; 
 }
@@ -122,16 +123,16 @@ div#areaTextual{
 }
 
 p{
-margin:0 auto;
-height: auto;
-width: 100%;
-padding: 5px;
-color: #000;
-background-color: rgba(33,33,33, 0.02);
-font-size: 1rem;
-text-align: justify;
-font-family: var(--font-family);
-padding: 5px;
+    margin:0 auto;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    color: #000;
+    background-color: rgba(33,33,33, 0.02);
+    font-size: 1rem;
+    text-align: justify;
+    font-family: var(--font-family);
+    padding: 5px;
 
 }
 
